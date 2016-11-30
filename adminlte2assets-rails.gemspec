@@ -27,16 +27,16 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_runtime_dependency "railties", "~> 4.1"
-  spec.add_runtime_dependency "jquery-rails", "~> 4.1"
-  spec.add_runtime_dependency "bootstrap-sass", "~> 3.3"
-  spec.add_runtime_dependency "sass-rails", "~> 5.0"
-  spec.add_runtime_dependency "font-awesome-rails", "~> 4.6"
-  spec.add_runtime_dependency "font-ionicons-rails", "~> 2.0"
+  #spec.add_runtime_dependency "railties", "~> 4.1"
+  #spec.add_runtime_dependency "jquery-rails", "~> 4.1"
+  #spec.add_runtime_dependency "bootstrap-sass", "~> 3.3"
+  #spec.add_runtime_dependency "sass-rails", "~> 5.0"
+  spec.add_runtime_dependency "font-awesome-rails" #, "~> 4.6"
+  spec.add_runtime_dependency "font-ionicons-rails" #, "~> 2.0"
   #spec.add_runtime_dependency "ckeditor", "~> 4.2"
   #spec.add_runtime_dependency "icheck-rails", "~> 1.0"
   #spec.add_runtime_dependency "datatablesassets-rails", "~> 1.0"
 
-  spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
+  #spec.add_development_dependency "bundler", "~> 1.12"
+  #spec.add_development_dependency "rake", "~> 10.0"
 end
